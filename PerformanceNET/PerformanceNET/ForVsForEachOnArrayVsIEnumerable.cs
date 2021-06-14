@@ -79,6 +79,16 @@ namespace PerformanceNET
         }
 
         [Benchmark]
+        public void ForEachLinqList()
+        {
+            var sum = 0;
+            list.ForEach((num) =>
+            {
+                sum += num;
+            });
+        }
+
+        [Benchmark]
         public void ForList()
         {
             var sum = 0;
@@ -94,10 +104,10 @@ namespace PerformanceNET
         {
             var sum = 0;
             var enumerator = enumerable.GetEnumerator();
-            
+
             for (; enumerator.MoveNext();)
             {
-                sum += enumerator.Current;                
+                sum += enumerator.Current;
             }
         }
     }
