@@ -42,7 +42,43 @@
 </li>
 
 </br>
+
+<h3><li>Concatenação de strings</h3>
+<p>O exemplo abaixo demonstra os testes utilizando diferentes comandos de concatenação e interpolação de strings.
   
+  ![Screenshot_2](https://user-images.githubusercontent.com/35710766/122084857-93215f80-cdd8-11eb-874b-68e3724a9d53.png)
+  
+  </br>
+  
+  Resultado:
+  
+  ![Screenshot_3](https://user-images.githubusercontent.com/35710766/122085107-ca900c00-cdd8-11eb-8447-39c672202020.png)
+  
+  Diante desse resultado, percebe-se que utilizando ```string.format()``` leva tempo relativamente maior do que utilizar operações básicas de concatenação com ```+```, template string e ```StringBuilder``` para modificar a mesma referência de objeto de string.
+</p>
+</li>
+
+</br>
+
+<h3><li>Casting</h3>
+
+<p>Nesta seção, são demonstrados os testes de performance utilizando diferentes comandos de casting de tipos, conforme o exemplo abaixo:
+
+  ![Screenshot_3](https://user-images.githubusercontent.com/35710766/122086238-e647e200-cdd9-11eb-8cc7-eabf26cf7a14.png)
+  
+  </br>
+  
+  Na imagem acima foi inicializado um array de strings com a chamada do ```Setup``` que ocorre apenas uma única vez. Da mesma forma que foram realizados testes da seção 1, foram considerados dois cenários de testes: um com array de 1000 elementos, e outro de 10000.
+  
+  </br>
+  
+  Resultado:
+  
+  ![Screenshot_4](https://user-images.githubusercontent.com/35710766/122086672-522a4a80-cdda-11eb-9443-df08d284a8ef.png)
+
+  De acordo com a imagem acima, percebe-se que para tamanhos pequenos de coleções, a diferença de performance é imperceptível, mas à medida que um array cresce, fica mais visível, e percebe-se que utilizando ```TryParse```, obteve resultados relativamente melhores do que se utilizar ```Convert``` e ```Parse```.
+</p>
+</li
 </ol>  
     
      
