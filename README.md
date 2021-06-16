@@ -76,7 +76,7 @@
   
   ![Screenshot_4](https://user-images.githubusercontent.com/35710766/122086672-522a4a80-cdda-11eb-9443-df08d284a8ef.png)
 
-  De acordo com a imagem acima, percebe-se que para tamanhos pequenos de coleções, a diferença de performance é imperceptível, mas à medida que um array cresce, fica mais visível, e percebe-se que utilizando ```TryParse```, obteve resultados relativamente melhores do que se utilizar ```Convert``` e ```Parse```.
+  De acordo com a imagem acima, percebe-se que para tamanhos pequenos de coleções, a diferença de performance é imperceptível, mas à medida que um array cresce, os valores começam a ficar discrepantes. Percebe-se que utilizando ```TryParse```, obteve resultados relativamente melhores do que se utilizar ```Convert``` e ```Parse```.
 </p>
 </li
 </ol>  
