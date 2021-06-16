@@ -94,7 +94,7 @@
  
  ![Screenshot_5](https://user-images.githubusercontent.com/35710766/122139659-dbb03b80-ce1f-11eb-9bf9-99c9e9b29892.png)
 
-  A performance do ```JsonSerializer``` gerou melhores resultados do que ```Newtonsoft```
+  A performance do ```JsonSerializer``` obteve melhores resultados do que ```Newtonsoft```.
   
 </p>
 </ol>  
