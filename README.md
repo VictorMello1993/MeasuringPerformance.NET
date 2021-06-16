@@ -97,6 +97,19 @@
   A performance do ```JsonSerializer``` obteve melhores resultados do que ```Newtonsoft```.
   
 </p>
+</li>
+
+<h3><li>Algoritmos de criptografia: Sha256 vs MD5</h3>
+
+<p>O algoritmo de criptografia com Sha256 é relativamente mais complexo (e, portanto, relativamente mais seguro) do que algoritmo MD5. Logo, este último reproduz perfomance relativamente melhor, mas é mais vulnerável a tentativas de força bruta para descriptografar senhas.</p>
+  
+![Screenshot_6](https://user-images.githubusercontent.com/35710766/122142365-b4f50380-ce25-11eb-9af5-fb32003bd34f.png)
+
+</br>
+
+![Screenshot_7](https://user-images.githubusercontent.com/35710766/122142678-53816480-ce26-11eb-932d-70caa0d13a31.png)
+
+</p>
 </ol>  
     
      
