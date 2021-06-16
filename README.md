@@ -78,7 +78,25 @@
 
   De acordo com a imagem acima, percebe-se que para tamanhos pequenos de coleções, a diferença de performance é imperceptível, mas à medida que um array cresce, os valores começam a ficar discrepantes. Percebe-se que utilizando ```TryParse```, obteve resultados relativamente melhores do que se utilizar ```Convert``` e ```Parse```.
 </p>
-</li
+</li>
+
+</br>
+
+<h3><li>Serialização e desesialização de JSON</h3>
+
+<p>Nesta seção, são demonstrados os testes de performance de serialização e deserialização de objetos JSON utilizando Newtonsoft e JsonSerializer
+
+![Screenshot_4](https://user-images.githubusercontent.com/35710766/122139319-1796d100-ce1f-11eb-8b5e-12d9a6a47f74.png)
+
+ </br>
+ 
+ Resultado:
+ 
+ ![Screenshot_5](https://user-images.githubusercontent.com/35710766/122139659-dbb03b80-ce1f-11eb-9bf9-99c9e9b29892.png)
+
+  A performance do ```JsonSerializer``` gerou melhores resultados do que ```Newtonsoft```
+  
+</p>
 </ol>  
     
      
