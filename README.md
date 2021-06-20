@@ -4,6 +4,21 @@
 
 ---
 
+<h2> Biblioteca utilizada </h2>
+<ul>
+  <li>BenchmarkDotNet</li>
+</ul>
+
+</br>
+
+<p>OBS: Para os testes funcionarem corretamente, é preciso deixar a configuração da solution no modo Release, pois não é preciso gerar arquivos extras de debug se estiver setado no modo Debug.
+
+![Screenshot_1](https://user-images.githubusercontent.com/35710766/122660106-d7a05880-d154-11eb-97d7-f4c8db3c62d4.png)
+  
+</p>
+
+</br>
+
 <h2>Testes</h2>
 
 <ol>
